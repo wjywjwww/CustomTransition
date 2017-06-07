@@ -14,6 +14,8 @@
 		1BA182A41EC3F1C200B869E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA182A21EC3F1C200B869E2 /* LaunchScreen.storyboard */; };
 		1BA182AF1EC3F1C300B869E2 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA182AE1EC3F1C300B869E2 /* _____Tests.swift */; };
 		1BA182BA1EC3F1C300B869E2 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA182B91EC3F1C300B869E2 /* _____UITests.swift */; };
+		1BA182C81EC3F3B800B869E2 /* JYPresentOneTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA182C71EC3F3B800B869E2 /* JYPresentOneTransition.swift */; };
+		1BA182CA1EC43DD500B869E2 /* JYInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA182C91EC43DD500B869E2 /* JYInteractiveTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1BA182B51EC3F1C300B869E2 /* 自定义转场UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义转场UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA182B91EC3F1C300B869E2 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		1BA182BB1EC3F1C300B869E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA182C71EC3F3B800B869E2 /* JYPresentOneTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYPresentOneTransition.swift; sourceTree = "<group>"; };
+		1BA182C91EC43DD500B869E2 /* JYInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYInteractiveTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				1BA182991EC3F1C200B869E2 /* AppDelegate.swift */,
 				1BA1829B1EC3F1C200B869E2 /* ViewController.swift */,
+				1BA182C71EC3F3B800B869E2 /* JYPresentOneTransition.swift */,
+				1BA182C91EC43DD500B869E2 /* JYInteractiveTransition.swift */,
 				1BA1829D1EC3F1C200B869E2 /* Main.storyboard */,
 				1BA182A01EC3F1C200B869E2 /* Assets.xcassets */,
 				1BA182A21EC3F1C200B869E2 /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA182CA1EC43DD500B869E2 /* JYInteractiveTransition.swift in Sources */,
 				1BA1829C1EC3F1C200B869E2 /* ViewController.swift in Sources */,
 				1BA1829A1EC3F1C200B869E2 /* AppDelegate.swift in Sources */,
+				1BA182C81EC3F3B800B869E2 /* JYPresentOneTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
